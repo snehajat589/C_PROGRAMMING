@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Experiment 1 - Timetable</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+background-color: #f8f3f4;
+}
+h2 {
+text-align: center;
+color: #0a0a0a;
+}
+table {
+width: 80%;
+margin: 20px auto;
+border-collapse: collapse; /* Remove double borders */
+}
+th, td {
+border: 2px solid #4152e4;
+padding: 10px;
+text-align: center;
+}
+th {
+background-color: #e90a79;
+color: rgb(245, 241, 6);
+}
+td.lab {
+background-color: #ce4087;
+font-weight: bold;
+}
+td.theory {
+background-color: #f53629;
+}
+</style>
+</head>
+<body>
+<h2>Weekly Timetable</h2>
+<table>
+<tr>
+<th>Time</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+</tr>
+<tr>
+<td>9:00 - 10:00</td>
+<td class="theory">Mathematics</td>
+<td class="theory">Physics</td>
+<td class="theory">Chemistry</td>
+<td class="theory">English</td>
+<td class="theory">Computer Science</td>
+</tr>
+<tr>
+<td>10:00 - 11:00</td>
+<td class="theory">Mathematics</td>
+<td class="theory">Physics</td>
+<td class="theory">Chemistry</td>
+<td class="theory">English</td>
+<td class="theory">Computer Science</td>
+</tr>
+<tr>
+<td>11:00 - 12:00</td>
+<td class="lab" colspan="2">Physics Lab</td> <!-- Merged two cells for lab -->
+<td class="theory">Chemistry</td>
+<td class="lab" colspan="2">Computer Lab</td> <!-- Merged two cells for lab -->
+</tr>
+<tr>
+<td>12:00 - 1:00</td>
+<td class="theory">Mathematics</td>
+<td class="theory">Physics</td>
+<td class="theory">Chemistry</td>
+<td class="theory">English</td>
+<td class="theory">Computer Science</td>
+</tr>
+<tr>
+<td>1:00 - 2:00</td>
+<td class="theory" colspan="5">Lunch Break</td> <!-- Full width merged cell -->
+</tr>
+<tr>
+<td>2:00 - 3:00</td>
+<td class="theory">Mathematics</td>
+<td class="theory">Physics</td>
+<td class="theory">Chemistry</td>
+<td class="theory">English</td>
+<td class="theory">Computer Science</td>
+</tr>
+</table>
+</body>
+</html>

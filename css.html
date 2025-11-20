@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experiment 5 - CSS Box Model</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f8ff;
+margin: 20px;
+}
+h2 {
+color: #369452;
+}
+/* Outer container */
+/* Labels */
+.label {
+font-weight: bold;
+color: #423f46;
+margin-bottom: 10px;
+display: block;
+}
+</style>
+</head>
+<body>
+<h2>Experiment 5: CSS Box Model Demonstration</h2>
+<p>This experiment shows how <strong>margin, padding, and border</strong> work in CSS.</p>
+<div class="container">
+<span class="label">Container: Margin = 30px, Padding = 20px, Border = 5px solid pink</span>
+<div class="inner-box">
+<span class="label">Inner Box: Margin = 20px, Padding = 15px, Border = 3px solid green</span>
+<div class="small-box">
+<span class="label">Small Box: Margin = 10px, Padding = 10px, Border = 2px dashed
+orange</span>
+Content inside the small box
+</div>
+</div>
+</div>
+<p><strong>Explanation:</strong></p>
+<ul>
+<li><strong>Margin:</strong> Space outside the border, separates elements from each other.</li>
+<li><strong>Border:</strong> Surrounds the padding and content.</li>
+<li><strong>Padding:</strong> Space between content and border.</li>
+</ul>
+</body>
+</html>
+Output:

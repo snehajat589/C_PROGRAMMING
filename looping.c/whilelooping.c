@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main(){
-    {
-        int i=1, sum=0;
-    while(n<=5)
-
-    printf("addition of first five number %d" ,sum+i);
-       i++;
-    
+{
+    int i = 1, sum = 0;
+    while(i<=5){
+        sum = sum + i;
+        i++;
     }
-    
-    return 0;
+    printf("addition of fist five numbers %d",sum);
+
+
 }
-    
+return 0;
+}
