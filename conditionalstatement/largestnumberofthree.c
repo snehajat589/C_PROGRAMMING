@@ -1,7 +1,8 @@
 #include<stdio.h>
+
 int main(){
     int a,b,c;
-    printf("Entr three numbers:");
+    printf("Enter three numbers:");
     scanf("%d%d%d",&a,&b,&c);
     if(a>=b && a>=c){
         printf("largest number is %d\n",a);

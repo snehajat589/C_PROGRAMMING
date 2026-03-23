@@ -12,11 +12,11 @@ int main() {
     printf("\nEnter marks of 5 subjects:\n");
     scanf("%d%d%d%d%d", &m, &e, &h, &s, &st);
 
-    // Calculate total and percentage
+ 
     total = m+e+h+s+st;
     percent = total / 5.0;
 
-    // percentage conditions
+    
     if (percent > 90)
         grade = 'A';
     else if (percent >= 80 && percent <= 90)
@@ -28,7 +28,7 @@ int main() {
     else
         grade = 'F'; 
 
-    // Display Result (Marksheet Format)
+    
         printf("\n================= MARKSHEET =================\n");
         printf(" Name      : %s\n", student);
         printf(" Roll No   : %d\n", roll_no);

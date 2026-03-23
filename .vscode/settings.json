@@ -58,5 +58,7 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
     "sumoftwonumber.C": "cpp"
-  }
+  },
+  "liveServer.settings.port": 5501,
+  "C_Cpp.errorSquiggles": "disabled"
 }

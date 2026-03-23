@@ -7,7 +7,7 @@ int main(){
         i++;
     }
     printf("addition of fist five numbers %d",sum);
-
+    
 
 }
 return 0;
