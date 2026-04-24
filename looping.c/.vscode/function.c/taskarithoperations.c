@@ -10,7 +10,7 @@ int div();
     printf("Enter the number of a & b:");
     scanf("%d %d",&a,&b);
     sum=a+b;
-    Printf("display Addition %d",&c);
+    Printf("display Addition %d",&a);
 
     }
    
@@ -19,7 +19,7 @@ int div();
     printf("Enter the number of a & b:");
     scanf("%d %d",&a,&b);
     sub=a-b;
-    Printf("display subtraction %d",&c);
+    Printf("display subtraction %d",&a);
 
     }
 
@@ -28,7 +28,7 @@ int div();
     printf("Enter the number of a & b:");
     scanf("%d %d",&a,&b);
     multi=a*b;
-    Printf("display multiplication %d",&c);
+    Printf("display multiplication %d",&a);
 
    }
     
@@ -38,7 +38,7 @@ int div();
     printf("Enter the number of a & b:");
     scanf("%d %d",&a,&b);
     div=a/b;
-    Printf("display division %d",&c);
+    Printf("display division %d",&a);
     }
     //calling of function//
     int main(){

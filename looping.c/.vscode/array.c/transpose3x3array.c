@@ -1,5 +1,5 @@
 #include<stdio.h>
-using namespace std;
+
 
 int main() {
     int arr[3][3], trans[3][3];

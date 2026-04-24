@@ -19,7 +19,8 @@ int main() {
     
     if (percent > 90)
         grade = 'A';
-    else if (percent >= 80 && percent <= 90)
+    else if (percent >= 80 && percent <= 90)book.c
+    
         grade = 'B';
     else if (percent >= 70 && percent < 80)
         grade = 'C';
